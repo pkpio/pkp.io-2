@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { async, TestBed } from '@angular/core/testing';
 
+import { MaterialModule } from '@angular/material';
 import { AboutModule } from './about.module';
 
 export function main() {
@@ -11,7 +12,7 @@ export function main() {
     beforeEach(() => {
       TestBed.configureTestingModule({
         declarations: [TestComponent],
-        imports: [AboutModule]
+        imports: [MaterialModule, AboutModule]
       });
     });
 
