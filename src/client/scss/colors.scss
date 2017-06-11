@@ -1,0 +1,17 @@
+@import "../scss/theme.scss";
+
+$primary-color-dark:    mat-color($primary-palette, 700);
+$primary-color-light:   mat-color($primary-palette, 200);
+$primary-color:         map-get($pkp-theme, primary);
+$accent-color:          map-get($pkp-theme, accent);
+@if map-get($pkp-theme, is-dark) {
+    $primary-color-text:    #000000;
+    $primary-text-color:    #212121;
+    $secondary-text-color:  #757575;
+    $divider-color:         #BDBDBD;
+} @else {
+    $primary-color-text:    #FFFFFF;
+    $primary-text-color:    #212121;
+    $secondary-text-color:  #757575;
+    $divider-color:         #BDBDBD;
+}

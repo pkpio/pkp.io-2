@@ -5,9 +5,8 @@ import { Component } from '@angular/core';
  */
 @Component({
   moduleId: module.id,
-  selector: 'sd-toolbar',
+  selector: 'pkp-toolbar',
   templateUrl: 'toolbar.component.html',
   styleUrls: ['toolbar.component.css']
 })
 export class ToolbarComponent { }
-
