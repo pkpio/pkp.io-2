@@ -10,7 +10,6 @@ import { NameListService } from './name-list/name-list.service';
 /**
  * Do not specify providers for modules that might be imported by a lazy loaded module.
  */
-
 @NgModule({
   imports: [CommonModule, RouterModule],
   declarations: [ToolbarComponent, NavbarComponent],

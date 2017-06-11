@@ -3,15 +3,10 @@ import { FormsModule } from '@angular/forms';
 import { TestBed } from '@angular/core/testing';
 import { APP_BASE_HREF } from '@angular/common';
 
-import {
-  async
-} from '@angular/core/testing';
-import {
-  Route
-} from '@angular/router';
-import {
-  RouterTestingModule
-} from '@angular/router/testing';
+import { async } from '@angular/core/testing';
+import { Route } from '@angular/router';
+import { RouterTestingModule } from '@angular/router/testing';
+
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
@@ -56,9 +51,5 @@ export function main() {
   selector: 'test-cmp',
   template: '<sd-app></sd-app>'
 })
-
 class TestComponent {
 }
-
-
-
