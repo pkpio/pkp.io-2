@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ToolbarComponent } from './toolbar.component';
-import { LayoutDependenciesModule } from '../layout-dependencies.module';
+import { NavbarComponent } from './navbar.component';
+import {  } from '../layout-dependencies.module';
 
 @NgModule({
   imports: [CommonModule, LayoutDependenciesModule],
