@@ -2,8 +2,8 @@
 
 $primary-color-dark:    mat-color($primary-palette, 700);
 $primary-color-light:   mat-color($primary-palette, 200);
-$primary-color:         map-get($pkp-theme, primary);
-$accent-color:          map-get($pkp-theme, accent);
+$primary-color:         mat-color(map-get($pkp-theme, primary));
+$accent-color:          mat-color(map-get($pkp-theme, accent));
 @if map-get($pkp-theme, is-dark) {
     $primary-color-text:    #000000;
     $primary-text-color:    #212121;
