@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
+import { LayoutDependenciesModule } from '../layout-dependencies.module';
 import { NavbarComponent } from './navbar.component';
-import {  } from '../layout-dependencies.module';
 
 @NgModule({
-  imports: [CommonModule, LayoutDependenciesModule],
-  declarations: [ToolbarComponent],
-  exports: [ToolbarComponent]
+  imports: [CommonModule, RouterModule, LayoutDependenciesModule],
+  declarations: [NavbarComponent],
+  exports: [NavbarComponent]
 })
-export class ToolbarModule { }
+export class NavbarModule { }
