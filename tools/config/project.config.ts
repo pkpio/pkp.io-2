@@ -24,9 +24,11 @@ export class ProjectConfig extends SeedConfig {
     this.NPM_DEPENDENCIES = [
       ...this.NPM_DEPENDENCIES,
       // Select a pre-built Material theme
-      {src: '@angular/material/prebuilt-themes/deeppurple-amber.css', inject: true}
-      // {src: 'jquery/dist/jquery.min.js', inject: 'libs'},
-      // {src: 'lodash/lodash.min.js', inject: 'libs'},
+      { src: '@angular/material/prebuilt-themes/deeppurple-amber.css', inject: true },
+      // For touch gesture support
+      { src: 'hammerjs/hammer.min.js', inject: 'libs' },
+      // Material icons
+      { src: 'material-design-icons/iconfont/material-icons.css', inject: true },
     ];
 
     // Add `local` third-party libraries to be injected/bundled.
