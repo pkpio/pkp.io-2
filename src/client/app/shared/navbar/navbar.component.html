@@ -1,8 +1,11 @@
-<md-toolbar color="primary" fxLayoutAlign="center | center" class="navbar">
-    <a md-button [routerLink]="['/']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">
+<div class="navbar" fxLayout="row" fxLayoutWrap="wrap" fxLayoutAlign="center">
+    <a fxFlex="150px" md-button [routerLink]="['/']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">
         <md-icon>home</md-icon> HOME
     </a>
-    <a md-button [routerLink]="['/about']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">
+    <a fxFlex="150px" md-button [routerLink]="['/about']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">
         <md-icon>person</md-icon> ABOUT
     </a>
-</md-toolbar>
+    <a fxFlex="150px" md-button [routerLink]="['/work']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">
+        <md-icon>code</md-icon> WORK
+    </a>
+</div>
