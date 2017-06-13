@@ -1,0 +1,45 @@
+# Name of your blog
+name: Praveen's blog
+
+# Short description
+description: This is my blog that is built by generating json files from markdown
+
+# Your name
+author: Praveen Kumar
+
+# Your email 
+author_email: mail@pkp.io
+
+# The directory for category index pages
+category_dir: category/
+
+# Uncomment if you are planning to run the blog in a subdirectory
+# Note - if you enable this, and attempt to view your site locally you have to use the baseurl in your local path.
+# Example, you must use http://localhost:4000/path/to/blog
+#baseurl: /path/to/blog 
+baseurl: 
+
+# The URL of your actual domain.
+url: https://pkp.io/blog
+
+
+#### Under the Hood Stuff #####
+# Markdown settings
+markdown: redcarpet
+markdown_ext:  markdown,mkdown,mkdn,mkd,md
+
+redcarpet:
+  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", 
+		"with_toc_data", "fenced_code_blocks", "superscript", "underline", 
+		"highlight"]
+
+# Makes pretty (descriptive) permalinks. See Jekyll docs for alternatives.
+# Unfortunately .json exention is not supported by jekyll :(
+permalink: /:title/
+
+# How many articles do you wish to appear on the front page:
+#paginate: 5
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [package.json, node_modules, app.yaml]
+
