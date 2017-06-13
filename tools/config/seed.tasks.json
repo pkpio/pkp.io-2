@@ -10,6 +10,7 @@
     "build.html_css",
     "build.js.dev",
     "build.index.dev",
+    "build.blog",
     "sw.manifest.static"
   ],
 
@@ -38,6 +39,7 @@
     "build.bundles.app",
     "minify.bundles",
     "build.index.prod",
+    "build.blog",
     "sw.manifest.static",
     "minify.index"
   ],
@@ -56,6 +58,7 @@
     "build.bundles.app.aot",
     "minify.bundles",
     "build.index.prod",
+    "build.blog",
     "sw.manifest.static",
     "minify.index"
   ],
@@ -75,6 +78,7 @@
     "transpile.bundles.rollup.aot",
     "minify.bundles",
     "build.index.prod",
+    "build.blog",
     "sw.manifest.static",
     "minify.index"
   ],
@@ -87,6 +91,7 @@
     "build.js.dev",
     "build.js.test",
     "build.index.dev",
+    "build.blog",
     "sw.manifest.static"
   ],
 

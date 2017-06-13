@@ -41,7 +41,8 @@
     "webdriver-start": "node ./node_modules/protractor/bin/webdriver-manager start",
     "webdriver-update": "node ./node_modules/protractor/bin/webdriver-manager update",
     "compodoc": "./node_modules/.bin/compodoc -p src/client/tsconfig.json",
-    "serve.compodoc": "./node_modules/.bin/compodoc -s"
+    "serve.compodoc": "./node_modules/.bin/compodoc -s",
+    "build.blog": "gulp build.blog --color"
   },
   "author": "Minko Gechev <mgechev>",
   "license": "MIT",
