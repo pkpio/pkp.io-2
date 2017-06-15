@@ -1,1 +1,1 @@
-web: npm run serve.dev -- --port=8080
+web: npm run serve.prod -- --port=$PORT
