@@ -28,7 +28,7 @@ export class ProjectConfig extends SeedConfig {
       // For touch gesture support
       { src: 'hammerjs/hammer.min.js', inject: 'libs' },
       // Material icons
-      { src: 'material-design-icons/iconfont/material-icons.css', inject: true },
+      //{ src: 'material-design-icons/iconfont/material-icons.css', inject: true },
     ];
 
     // Add `local` third-party libraries to be injected/bundled.
