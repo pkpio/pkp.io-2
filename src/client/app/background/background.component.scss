@@ -11,7 +11,11 @@
   margin-top: 0.83em;
 }
 .background md-icon {
-    font-size: 20px;
-    position: relative;
-    top: 5px;
+  font-size: 20px;
+  position: relative;
+  top: 5px;
+}
+
+.background .mat-tab-labels {
+  justify-content: center;
 }
