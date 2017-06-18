@@ -8,7 +8,9 @@ We have all been victimns of one massive database hijack or the other and if you
 
 Given the current state of attacks, the logical and sound approach while designing your database - more importantly about how you handle the storage of user passwords, should be in such a way that it reveals no information about a user's actual password. Especially since password reuse is a very common issue.
 
-{% icon fa-quote-left %} [Anything that can go wrong, will go wrong.][murphys-law] {% icon fa-quote-right %}
+"""
+[Anything that can go wrong, will go wrong.][murphys-law]
+"""
 
 I will go over a bunch of ways - with increasing level of safety, to saving passwords in your database. A fair warning to those who are new to the security domain : while these methods offer an increasing level of "protection", it is strongly recommended to use the safest one. The order is just to give you a glimpse of the evolution.
 

@@ -5,7 +5,7 @@ categories: [Tech, Personal]
 crosspost_to_medium: true
 ---
 
-I started to feel quite blasé about the site I use to market myself! It was already 2 years old and that's a long time, especially in tech, to regard something as old and probably obsolete - in comparision to the prevailing! Frankly it's about time that I start catching up with what's {% icon fa-fire red %} in Web!
+I started to feel quite blasé about the site I use to market myself! It was already 2 years old and that's a long time, especially in tech, to regard something as old and probably obsolete - in comparision to the prevailing! Frankly it's about time that I start catching up with what's hot in Web!
 
 No to pre-built templates
 ============
@@ -38,7 +38,7 @@ After examining a few popular choices, I arrived at the list below:
 
 Building 
 ============
-[AngularJS][angular] is freaking awesome! - I'm in {% icon fa-heart red %} Using [Angular material][ang-md] I quickly arrived at a basic template for the website with just one dynamic element - the only changing component of the website - consistency and uniformity, remember? 
+[AngularJS][angular] is freaking awesome - I'm in love! Using [Angular material][ang-md] I quickly arrived at a basic template for the website with just one dynamic element - the only changing component of the website - consistency and uniformity, remember? 
 
 Once I have a basic template for the site, I just had to make templates for each page - templates because I wanted to maintain isolation between page design and the actual data. Keeping other ground rules in mind, I arrived at below structure for the app.
 
@@ -113,7 +113,7 @@ Add-ons
 We all love addons! Since everything so far is working great, I decided to throw in a couple of add-ons :
 
  1. Discuss plugin:
-    Because a blog with no place to voice your opinion {% icon fa-comments-o %} would be dull!
+    Because a blog with no place to voice your opinion would be dull!
 
  2. Crawler friendly version:
     As great as AngularJS is, it fails miserably when it comes to dealing with web crawlers! Thanks to [Prerender.io][prerender], that's a solved problem now! You can check this setup in the ```.htaccess``` file

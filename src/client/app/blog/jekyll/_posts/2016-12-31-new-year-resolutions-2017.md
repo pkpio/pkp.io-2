@@ -6,7 +6,7 @@ categories : [Personal]
 
 Just a few more hours and all things 2016 will be history. While I'm not into the custom of writing year end notes and public resolutions for upcoming year, I like to make an exception here - there's always a first, right? If I were to speak my thoughts spontaneously, 2016 hasn't been a great year for me - I hate to go into the reasons but needless to say that it's been one of the "slowest years"!
 
-<center>{% icon fa-quote-left %} You can't change your past but you can learn from it and change your future {% icon fa-quote-right %}</center>
+<center>You can't change your past but you can learn from it and change your future</center>
 
 So I have decided to make some realistic new year resolutions for the upcoming year. Hopefully I would be able to keep up to my personal expectations - fingers crossed.
 
@@ -30,6 +30,6 @@ Okay, clearly this is a nerdy goal to place in personal section of resolutions b
 ==More clubs, pubs and social events?==
 Well, I really haven't thought about this one yet. I want to be realistic with my goals so, I'm not going to put any social resolutions for the upcoming year - doesn't have to mean I would be anti social! I do want to learn Forró or some other kind dance but yeah, not a hard goal!
 
-I'm excited about the unknown and the possibilities it has in store. <i>Optimistically welcoming 2017! {% icon fa-hand-spock-o %}</i>
+I'm excited about the unknown and the possibilities it has in store. <i>Optimistically welcoming 2017!
 
 [ml-ceti]: https://www.coursera.org/account/accomplishments/records/4WVF3KTLMBYJ

@@ -5,7 +5,6 @@
   "categories"   : {{ page.categories | jsonify }},
   "date"         : {{ page.date | jsonify }},
   "url"          : {{ page.url | jsonify }},
-  "html_content" : {{ page.content | jsonify }},
   "raw_content"  : {{ page.raw_content | jsonify }},
   "readtime"	   : {{ page.content | number_of_words | divided_by:180 | jsonify}},
   "next_url"     : {{ page.next.url | jsonify }},

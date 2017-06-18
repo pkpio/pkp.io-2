@@ -14,18 +14,7 @@ author_email: mail@pkp.io
 category_dir: category/
 
 # The relative URL to access blog resources (to refer to assests).
-url: /blog/jekyll 
-
-
-#### Under the Hood Stuff #####
-# Markdown settings
-markdown: redcarpet
-markdown_ext:  markdown,mkdown,mkdn,mkd,md
-
-redcarpet:
-  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", 
-		"with_toc_data", "fenced_code_blocks", "superscript", "underline", 
-		"highlight"]
+url: /blog/jekyll
 
 # Makes pretty (descriptive) permalinks. See Jekyll docs for alternatives.
 # Unfortunately .json exention is not supported by jekyll :(
