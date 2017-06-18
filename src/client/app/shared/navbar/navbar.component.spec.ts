@@ -34,11 +34,25 @@ export function main() {
             .toContain('HOME');
         });
 
-        it('should have ABOUT as link 2', () => {
+        it('should have PROFILE as link 2', () => {
             expect(
                 toolbarDOMEl.querySelectorAll('a')[1].textContent
             )
-            .toContain('ABOUT');
+            .toContain('PROFILE');
+        });
+
+        it('should have BACKGROUND as link 3', () => {
+            expect(
+                toolbarDOMEl.querySelectorAll('a')[2].textContent
+            )
+            .toContain('BACKGROUND');
+        });
+
+        it('should have BLOG as link 4', () => {
+            expect(
+                toolbarDOMEl.querySelectorAll('a')[3].textContent
+            )
+            .toContain('BLOG');
         });
     });
 }
