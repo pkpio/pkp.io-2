@@ -2,35 +2,39 @@ import { Component } from '@angular/core';
 import { async, TestBed } from '@angular/core/testing';
 
 import { MaterialModule } from '@angular/material';
-import { AboutModule } from './about.module';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { BackgroundModule } from './background.module';
 
 export function main() {
-   describe('About component', () => {
-    // Setting module for testing
-    // Disable old forms
-
-    beforeEach(() => {
-      TestBed.configureTestingModule({
-        declarations: [TestComponent],
-        imports: [MaterialModule, AboutModule]
-      });
-    });
-
-    it('should work',
-      async(() => {
-        TestBed
-          .compileComponents()
-          .then(() => {
-            let fixture = TestBed.createComponent(TestComponent);
-            let aboutDOMEl = fixture.debugElement.children[0].nativeElement;
-            expect(aboutDOMEl.querySelectorAll('h2')[0].textContent).toEqual('Features');
-          });
+    describe('Background component', () => {
+        let backgroundDOMEl: HTMLElement;
+        beforeEach(async(() => {
+            TestBed.configureTestingModule({
+                declarations: [TestComponent],
+                imports: [MaterialModule, FlexLayoutModule, BrowserAnimationsModule, 
+                    BackgroundModule]
+            }).compileComponents();
         }));
+        
+        beforeEach(() => {
+            backgroundDOMEl = TestBed.createComponent(TestComponent)
+                .debugElement.children[0].nativeElement;
+        });
+
+        it('should contain Tabs', () => {
+            expect(
+                backgroundDOMEl.querySelector('md-tab-group')
+                //backgroundDOMEl.querySelectorAll('#md-tab-label-0-0')[0].textContent
+            )
+            .toBeDefined();
+            //.toContain('WORK');
+        });
     });
 }
 
 @Component({
   selector: 'test-cmp',
-  template: '<sd-about></sd-about>'
+  template: '<pkp-background></pkp-background>'
 })
 class TestComponent {}
